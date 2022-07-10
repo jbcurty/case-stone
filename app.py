@@ -18,7 +18,7 @@ def get_jsonlist():
 
 @app.route("/")
 def hello_world():
-    return "<h1>Desafio Stone! </h1> <p> para testar a aplicação colocar /api no URI <p>"
+    return "<h1>Desafio Stone! </h1> <p> Para testar a aplicação colocar /api no URI <p>"
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
