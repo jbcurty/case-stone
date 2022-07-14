@@ -1,5 +1,4 @@
-# case-stone
-Desafio Observabilidade Pagar.me
+# Desafio Observabilidade Pagar.me
 
 Primeiro passo, baixar a imagem que está no docker hub 
 
