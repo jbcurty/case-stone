@@ -1,15 +1,15 @@
 # case-stone
 Desafio Observabilidade Pagar.me
 
-# Primeiro passo, baixar a imagem que está no docker hub 
-docker pull jbcurty/desafio-stone:latest
+Primeiro passo, baixar a imagem que está no docker hub 
+$ docker pull jbcurty/desafio-stone:latest
 
 # Segundo passo, executar a imagem baixada
-docker run -p 5000:5000 -d jbcurty/desafio-stone
+$ docker run -p 5000:5000 -d jbcurty/desafio-stone
 
-# Basta abrir o navegador e inserir o localhot:5000 ou 127.0.0.1:5000
+Basta abrir o navegador e inserir 127.0.0.1:5000
 
-# Para validar a aplicação conforme solicitado, colocar /api na URI
+Para validar a aplicação conforme solicitado, colocar /api na URI
 
 Com a aplicação em execução, já é possível realizar um curl ou utilizar aplicativos que realizam consultas via HTTP, como Insomnia ou Postman.
 
