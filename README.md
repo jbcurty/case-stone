@@ -2,9 +2,11 @@
 Desafio Observabilidade Pagar.me
 
 Primeiro passo, baixar a imagem que está no docker hub 
+
 $ docker pull jbcurty/desafio-stone:latest
 
-# Segundo passo, executar a imagem baixada
+Segundo passo, executar a imagem baixada
+
 $ docker run -p 5000:5000 -d jbcurty/desafio-stone
 
 Basta abrir o navegador e inserir 127.0.0.1:5000
