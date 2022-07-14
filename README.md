@@ -17,4 +17,6 @@ Para validar a aplicação conforme solicitado, colocar /api na URI
 
 Com a aplicação em execução, já é possível realizar um curl ou utilizar aplicativos que realizam consultas via HTTP, como Insomnia ou Postman.
 
+![image](https://user-images.githubusercontent.com/45775861/179020956-e1f4af15-e8fc-44fd-a764-0cefb8ba44da.png)
+
 Em nível de observabilidade, para esse caso de uso, a aplicação está sendo executada em um container local, mas poderiamos ter enviado a imagem para um ECR e subir em um k8s. O próximo passo seria colocar ele como target de um prometheus, e utilizar o grafana como visualização das métricas.
